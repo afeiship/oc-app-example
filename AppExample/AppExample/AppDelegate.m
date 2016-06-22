@@ -20,6 +20,10 @@
     // Override point for customization after application launch.
     [self createMainWindow];
     NSLog(@"Hello APP!");
+    
+    //sleep for debug:
+    sleep(1);
+    
     return YES;
 }
 

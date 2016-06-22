@@ -12,7 +12,6 @@
 		22AA81241D19831000F4577F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81231D19831000F4577F /* AppDelegate.m */; };
 		22AA81271D19831000F4577F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81261D19831000F4577F /* ViewController.m */; };
 		22AA812C1D19831000F4577F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AA812B1D19831000F4577F /* Assets.xcassets */; };
-		22AA812F1D19831000F4577F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AA812D1D19831000F4577F /* LaunchScreen.storyboard */; };
 		22AA813D1D19853900F4577F /* CYXOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA813C1D19853900F4577F /* CYXOneViewController.m */; };
 		22AA81481D1A24C200F4577F /* CYXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81471D1A24C200F4577F /* CYXMenu.m */; };
 		22AA81511D1A40A500F4577F /* CYXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA814F1D1A40A500F4577F /* CYXCell.m */; };
@@ -29,6 +28,8 @@
 		22B14FC61D1A722B00FC45F8 /* CYXTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FC51D1A722B00FC45F8 /* CYXTwoViewController.m */; };
 		22B14FC91D1A725A00FC45F8 /* CYXThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FC81D1A725A00FC45F8 /* CYXThreeViewController.m */; };
 		22B14FCC1D1A727C00FC45F8 /* CYXFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FCB1D1A727C00FC45F8 /* CYXFourViewController.m */; };
+		22B14FD01D1A887F00FC45F8 /* LauchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B14FCF1D1A887F00FC45F8 /* LauchScreen.xib */; };
+		22B14FD21D1A8A5500FC45F8 /* img_start6P.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B14FD11D1A8A5500FC45F8 /* img_start6P.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +40,6 @@
 		22AA81251D19831000F4577F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		22AA81261D19831000F4577F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		22AA812B1D19831000F4577F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22AA812E1D19831000F4577F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22AA81301D19831000F4577F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22AA813B1D19853900F4577F /* CYXOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXOneViewController.h; sourceTree = "<group>"; };
 		22AA813C1D19853900F4577F /* CYXOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXOneViewController.m; sourceTree = "<group>"; };
@@ -64,6 +64,8 @@
 		22B14FC81D1A725A00FC45F8 /* CYXThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXThreeViewController.m; sourceTree = "<group>"; };
 		22B14FCA1D1A727C00FC45F8 /* CYXFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXFourViewController.h; sourceTree = "<group>"; };
 		22B14FCB1D1A727C00FC45F8 /* CYXFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXFourViewController.m; sourceTree = "<group>"; };
+		22B14FCF1D1A887F00FC45F8 /* LauchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LauchScreen.xib; sourceTree = "<group>"; };
+		22B14FD11D1A8A5500FC45F8 /* img_start6P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_start6P.png; sourceTree = "<group>"; };
 		5F4953B0BD826E8876A559B7 /* Pods-AppExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppExample/Pods-AppExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A421868116463E02EF5037C4 /* libPods-AppExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D960B790A7C09CE637F5317A /* Pods-AppExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppExample/Pods-AppExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,9 +112,9 @@
 				22AA81251D19831000F4577F /* ViewController.h */,
 				22AA81261D19831000F4577F /* ViewController.m */,
 				22AA812B1D19831000F4577F /* Assets.xcassets */,
-				22AA812D1D19831000F4577F /* LaunchScreen.storyboard */,
 				22AA81301D19831000F4577F /* Info.plist */,
 				22AA811F1D19831000F4577F /* Supporting Files */,
+				22B14FCF1D1A887F00FC45F8 /* LauchScreen.xib */,
 			);
 			path = AppExample;
 			sourceTree = "<group>";
@@ -221,6 +223,7 @@
 		22AA81581D1A56B400F4577F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				22B14FD11D1A8A5500FC45F8 /* img_start6P.png */,
 				22AA81681D1A65BE00F4577F /* js.png */,
 				22AA81691D1A65BE00F4577F /* js@2x.png */,
 				22AA816A1D1A65BE00F4577F /* qw.png */,
@@ -315,9 +318,10 @@
 				22AA81661D1A63EC00F4577F /* tab_home_icon.png in Resources */,
 				22AA816F1D1A65BE00F4577F /* js@2x.png in Resources */,
 				22AA81521D1A40A500F4577F /* CYXCell.xib in Resources */,
+				22B14FD21D1A8A5500FC45F8 /* img_start6P.png in Resources */,
+				22B14FD01D1A887F00FC45F8 /* LauchScreen.xib in Resources */,
 				22AA81711D1A65BE00F4577F /* qw@2x.png in Resources */,
 				22AA81721D1A65BE00F4577F /* user.png in Resources */,
-				22AA812F1D19831000F4577F /* LaunchScreen.storyboard in Resources */,
 				22AA816E1D1A65BE00F4577F /* js.png in Resources */,
 				22AA812C1D19831000F4577F /* Assets.xcassets in Resources */,
 				22AA81731D1A65BE00F4577F /* user@2x.png in Resources */,
@@ -393,17 +397,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		22AA812D1D19831000F4577F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22AA812E1D19831000F4577F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		22AA81311D19831000F4577F /* Debug */ = {
