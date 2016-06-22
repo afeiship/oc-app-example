@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYXOneViewController : UIViewController
+@interface CYXOneViewController : UITableViewController
 
 @end
