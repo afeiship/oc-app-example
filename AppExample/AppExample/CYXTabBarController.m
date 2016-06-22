@@ -35,7 +35,7 @@
 -(void) setNavItemViewController:(UIViewController *)viewController Title:(NSString *)title Icon:(NSString *) icon{
     //1.set root controller
     UINavigationController *nav= [[UINavigationController alloc] initWithRootViewController:viewController];
-    [nav setHidesBarsOnTap:YES];
+//    [nav setHidesBarsOnTap:YES];
     
     //2.set title:
     nav.title = title;
