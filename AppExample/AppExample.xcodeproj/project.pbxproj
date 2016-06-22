@@ -26,6 +26,9 @@
 		22AA81711D1A65BE00F4577F /* qw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA816B1D1A65BE00F4577F /* qw@2x.png */; };
 		22AA81721D1A65BE00F4577F /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA816C1D1A65BE00F4577F /* user.png */; };
 		22AA81731D1A65BE00F4577F /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA816D1D1A65BE00F4577F /* user@2x.png */; };
+		22B14FC61D1A722B00FC45F8 /* CYXTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FC51D1A722B00FC45F8 /* CYXTwoViewController.m */; };
+		22B14FC91D1A725A00FC45F8 /* CYXThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FC81D1A725A00FC45F8 /* CYXThreeViewController.m */; };
+		22B14FCC1D1A727C00FC45F8 /* CYXFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FCB1D1A727C00FC45F8 /* CYXFourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,12 @@
 		22AA816B1D1A65BE00F4577F /* qw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qw@2x.png"; sourceTree = "<group>"; };
 		22AA816C1D1A65BE00F4577F /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		22AA816D1D1A65BE00F4577F /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@2x.png"; sourceTree = "<group>"; };
+		22B14FC41D1A722B00FC45F8 /* CYXTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXTwoViewController.h; sourceTree = "<group>"; };
+		22B14FC51D1A722B00FC45F8 /* CYXTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXTwoViewController.m; sourceTree = "<group>"; };
+		22B14FC71D1A725A00FC45F8 /* CYXThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXThreeViewController.h; sourceTree = "<group>"; };
+		22B14FC81D1A725A00FC45F8 /* CYXThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXThreeViewController.m; sourceTree = "<group>"; };
+		22B14FCA1D1A727C00FC45F8 /* CYXFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXFourViewController.h; sourceTree = "<group>"; };
+		22B14FCB1D1A727C00FC45F8 /* CYXFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXFourViewController.m; sourceTree = "<group>"; };
 		5F4953B0BD826E8876A559B7 /* Pods-AppExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppExample/Pods-AppExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A421868116463E02EF5037C4 /* libPods-AppExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D960B790A7C09CE637F5317A /* Pods-AppExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppExample/Pods-AppExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +148,12 @@
 			children = (
 				22AA813B1D19853900F4577F /* CYXOneViewController.h */,
 				22AA813C1D19853900F4577F /* CYXOneViewController.m */,
+				22B14FC41D1A722B00FC45F8 /* CYXTwoViewController.h */,
+				22B14FC51D1A722B00FC45F8 /* CYXTwoViewController.m */,
+				22B14FC71D1A725A00FC45F8 /* CYXThreeViewController.h */,
+				22B14FC81D1A725A00FC45F8 /* CYXThreeViewController.m */,
+				22B14FCA1D1A727C00FC45F8 /* CYXFourViewController.h */,
+				22B14FCB1D1A727C00FC45F8 /* CYXFourViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -366,10 +381,13 @@
 			files = (
 				22AA81271D19831000F4577F /* ViewController.m in Sources */,
 				22AA81241D19831000F4577F /* AppDelegate.m in Sources */,
+				22B14FC91D1A725A00FC45F8 /* CYXThreeViewController.m in Sources */,
 				22AA81511D1A40A500F4577F /* CYXCell.m in Sources */,
 				22AA815B1D1A5DA400F4577F /* CYXTabBarController.m in Sources */,
+				22B14FCC1D1A727C00FC45F8 /* CYXFourViewController.m in Sources */,
 				22AA813D1D19853900F4577F /* CYXOneViewController.m in Sources */,
 				22AA81211D19831000F4577F /* main.m in Sources */,
+				22B14FC61D1A722B00FC45F8 /* CYXTwoViewController.m in Sources */,
 				22AA81481D1A24C200F4577F /* CYXMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
