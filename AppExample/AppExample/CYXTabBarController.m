@@ -19,18 +19,21 @@
 @implementation CYXTabBarController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"Tabbar controller init!");
+    
+    UIStoryboard *userStoryBoard = [UIStoryboard storyboardWithName:@"CYXFourViewController" bundle:nil];
     
     CYXOneViewController *oneVC = [[CYXOneViewController alloc] init];
     CYXTwoViewController *twoVC = [[CYXTwoViewController alloc] init];
     CYXThreeViewController *threeVC = [[CYXThreeViewController alloc] init];
-    CYXFourViewController *fourVC = [[CYXFourViewController alloc] init];
+    CYXFourViewController *fourVC = [userStoryBoard instantiateInitialViewController];
+    
     [self setNavItemViewController:oneVC Title:@"首页" Icon:@"tab_home_icon"];
     [self setNavItemViewController:twoVC Title:@"技术" Icon:@"js"];
     [self setNavItemViewController:threeVC Title:@"博文" Icon:@"qw"];
     [self setNavItemViewController:fourVC Title:@"我的江湖" Icon:@"user"];
     
 }
+
 
 -(void) setNavItemViewController:(UIViewController *)viewController Title:(NSString *)title Icon:(NSString *) icon{
     //1.set root controller

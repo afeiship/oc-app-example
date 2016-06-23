@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"Tab four init!");
     // Do any additional setup after loading the view.
 }
 

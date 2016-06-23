@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1D51E552B8A7739C5562A6CC /* libPods-AppExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A421868116463E02EF5037C4 /* libPods-AppExample.a */; };
+		22377E6A1D1AE0DA00FD292C /* js.png in Resources */ = {isa = PBXBuildFile; fileRef = 22377E691D1AE0DA00FD292C /* js.png */; };
+		22377E6D1D1AE3D900FD292C /* CYXFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22377E6C1D1AE3D900FD292C /* CYXFourViewController.m */; };
+		22377E711D1B75AB00FD292C /* CYXFourViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22377E701D1B75AB00FD292C /* CYXFourViewController.storyboard */; };
 		22AA81211D19831000F4577F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81201D19831000F4577F /* main.m */; };
 		22AA81241D19831000F4577F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81231D19831000F4577F /* AppDelegate.m */; };
 		22AA81271D19831000F4577F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81261D19831000F4577F /* ViewController.m */; };
@@ -19,7 +22,6 @@
 		22AA815B1D1A5DA400F4577F /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA815A1D1A5DA400F4577F /* CYXTabBarController.m */; };
 		22AA81661D1A63EC00F4577F /* tab_home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA81641D1A63EC00F4577F /* tab_home_icon.png */; };
 		22AA81671D1A63EC00F4577F /* tab_home_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA81651D1A63EC00F4577F /* tab_home_icon@2x.png */; };
-		22AA816E1D1A65BE00F4577F /* js.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA81681D1A65BE00F4577F /* js.png */; };
 		22AA816F1D1A65BE00F4577F /* js@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA81691D1A65BE00F4577F /* js@2x.png */; };
 		22AA81701D1A65BE00F4577F /* qw.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA816A1D1A65BE00F4577F /* qw.png */; };
 		22AA81711D1A65BE00F4577F /* qw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA816B1D1A65BE00F4577F /* qw@2x.png */; };
@@ -27,12 +29,15 @@
 		22AA81731D1A65BE00F4577F /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA816D1D1A65BE00F4577F /* user@2x.png */; };
 		22B14FC61D1A722B00FC45F8 /* CYXTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FC51D1A722B00FC45F8 /* CYXTwoViewController.m */; };
 		22B14FC91D1A725A00FC45F8 /* CYXThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FC81D1A725A00FC45F8 /* CYXThreeViewController.m */; };
-		22B14FCC1D1A727C00FC45F8 /* CYXFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B14FCB1D1A727C00FC45F8 /* CYXFourViewController.m */; };
 		22B14FD01D1A887F00FC45F8 /* LauchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B14FCF1D1A887F00FC45F8 /* LauchScreen.xib */; };
 		22B14FD21D1A8A5500FC45F8 /* img_start6P.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B14FD11D1A8A5500FC45F8 /* img_start6P.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22377E691D1AE0DA00FD292C /* js.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = js.png; sourceTree = "<group>"; };
+		22377E6B1D1AE3D900FD292C /* CYXFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXFourViewController.h; sourceTree = "<group>"; };
+		22377E6C1D1AE3D900FD292C /* CYXFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXFourViewController.m; sourceTree = "<group>"; };
+		22377E701D1B75AB00FD292C /* CYXFourViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CYXFourViewController.storyboard; sourceTree = "<group>"; };
 		22AA811C1D19831000F4577F /* AppExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AA81201D19831000F4577F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22AA81221D19831000F4577F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,7 +57,6 @@
 		22AA815A1D1A5DA400F4577F /* CYXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXTabBarController.m; sourceTree = "<group>"; };
 		22AA81641D1A63EC00F4577F /* tab_home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_home_icon.png; sourceTree = "<group>"; };
 		22AA81651D1A63EC00F4577F /* tab_home_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_home_icon@2x.png"; sourceTree = "<group>"; };
-		22AA81681D1A65BE00F4577F /* js.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = js.png; sourceTree = "<group>"; };
 		22AA81691D1A65BE00F4577F /* js@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "js@2x.png"; sourceTree = "<group>"; };
 		22AA816A1D1A65BE00F4577F /* qw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qw.png; sourceTree = "<group>"; };
 		22AA816B1D1A65BE00F4577F /* qw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qw@2x.png"; sourceTree = "<group>"; };
@@ -62,8 +66,6 @@
 		22B14FC51D1A722B00FC45F8 /* CYXTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXTwoViewController.m; sourceTree = "<group>"; };
 		22B14FC71D1A725A00FC45F8 /* CYXThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXThreeViewController.h; sourceTree = "<group>"; };
 		22B14FC81D1A725A00FC45F8 /* CYXThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXThreeViewController.m; sourceTree = "<group>"; };
-		22B14FCA1D1A727C00FC45F8 /* CYXFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXFourViewController.h; sourceTree = "<group>"; };
-		22B14FCB1D1A727C00FC45F8 /* CYXFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXFourViewController.m; sourceTree = "<group>"; };
 		22B14FCF1D1A887F00FC45F8 /* LauchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LauchScreen.xib; sourceTree = "<group>"; };
 		22B14FD11D1A8A5500FC45F8 /* img_start6P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_start6P.png; sourceTree = "<group>"; };
 		5F4953B0BD826E8876A559B7 /* Pods-AppExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppExample/Pods-AppExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,14 +150,15 @@
 		22AA81381D1984F000F4577F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				22377E701D1B75AB00FD292C /* CYXFourViewController.storyboard */,
 				22AA813B1D19853900F4577F /* CYXOneViewController.h */,
 				22AA813C1D19853900F4577F /* CYXOneViewController.m */,
 				22B14FC41D1A722B00FC45F8 /* CYXTwoViewController.h */,
 				22B14FC51D1A722B00FC45F8 /* CYXTwoViewController.m */,
 				22B14FC71D1A725A00FC45F8 /* CYXThreeViewController.h */,
 				22B14FC81D1A725A00FC45F8 /* CYXThreeViewController.m */,
-				22B14FCA1D1A727C00FC45F8 /* CYXFourViewController.h */,
-				22B14FCB1D1A727C00FC45F8 /* CYXFourViewController.m */,
+				22377E6B1D1AE3D900FD292C /* CYXFourViewController.h */,
+				22377E6C1D1AE3D900FD292C /* CYXFourViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -223,8 +226,8 @@
 		22AA81581D1A56B400F4577F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				22377E691D1AE0DA00FD292C /* js.png */,
 				22B14FD11D1A8A5500FC45F8 /* img_start6P.png */,
-				22AA81681D1A65BE00F4577F /* js.png */,
 				22AA81691D1A65BE00F4577F /* js@2x.png */,
 				22AA816A1D1A65BE00F4577F /* qw.png */,
 				22AA816B1D1A65BE00F4577F /* qw@2x.png */,
@@ -317,13 +320,14 @@
 				22AA81701D1A65BE00F4577F /* qw.png in Resources */,
 				22AA81661D1A63EC00F4577F /* tab_home_icon.png in Resources */,
 				22AA816F1D1A65BE00F4577F /* js@2x.png in Resources */,
+				22377E711D1B75AB00FD292C /* CYXFourViewController.storyboard in Resources */,
 				22AA81521D1A40A500F4577F /* CYXCell.xib in Resources */,
 				22B14FD21D1A8A5500FC45F8 /* img_start6P.png in Resources */,
 				22B14FD01D1A887F00FC45F8 /* LauchScreen.xib in Resources */,
 				22AA81711D1A65BE00F4577F /* qw@2x.png in Resources */,
 				22AA81721D1A65BE00F4577F /* user.png in Resources */,
-				22AA816E1D1A65BE00F4577F /* js.png in Resources */,
 				22AA812C1D19831000F4577F /* Assets.xcassets in Resources */,
+				22377E6A1D1AE0DA00FD292C /* js.png in Resources */,
 				22AA81731D1A65BE00F4577F /* user@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,7 +392,7 @@
 				22B14FC91D1A725A00FC45F8 /* CYXThreeViewController.m in Sources */,
 				22AA81511D1A40A500F4577F /* CYXCell.m in Sources */,
 				22AA815B1D1A5DA400F4577F /* CYXTabBarController.m in Sources */,
-				22B14FCC1D1A727C00FC45F8 /* CYXFourViewController.m in Sources */,
+				22377E6D1D1AE3D900FD292C /* CYXFourViewController.m in Sources */,
 				22AA813D1D19853900F4577F /* CYXOneViewController.m in Sources */,
 				22AA81211D19831000F4577F /* main.m in Sources */,
 				22B14FC61D1A722B00FC45F8 /* CYXTwoViewController.m in Sources */,
