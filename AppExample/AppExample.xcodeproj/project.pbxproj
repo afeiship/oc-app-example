@@ -85,6 +85,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22377E721D1D251100FD292C /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				22377E751D1D259000FD292C /* View */,
+				22377E741D1D258700FD292C /* Model */,
+				22377E731D1D258200FD292C /* Controller */,
+			);
+			name = 4;
+			sourceTree = "<group>";
+		};
+		22377E731D1D258200FD292C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		22377E741D1D258700FD292C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		22377E751D1D259000FD292C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		22377E761D1D2EF700FD292C /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				22377E771D1D2F0000FD292C /* View */,
+			);
+			name = 2;
+			sourceTree = "<group>";
+		};
+		22377E771D1D2F0000FD292C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		22AA81131D19831000F4577F = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +178,8 @@
 		22AA81361D1984BE00F4577F /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				22377E761D1D2EF700FD292C /* 2 */,
+				22377E721D1D251100FD292C /* 4 */,
 				22AA81371D1984E800F4577F /* 1 */,
 			);
 			name = classes;
